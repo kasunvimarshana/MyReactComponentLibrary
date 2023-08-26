@@ -30,3 +30,12 @@
     "bracketSpacing": true,
     "semi": true
 }
+# create [.vscode/settings.json]
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
+    "git.ignoreLimitWarning": true
+}
