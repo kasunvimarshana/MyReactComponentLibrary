@@ -12,8 +12,14 @@
 
 # add [scripts] section
 
+## linux
+
 "scripts": { "test": "echo \"Error: no test specified\" && exit 1", "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs", "build:esm": "tsc", "build:cjs": "tsc
 --module CommonJS --outDir dist/cjs" },
+
+## windows
+
+"build": "if exist dist rd /s /q dist && npx prettier --write src/ && npm run build:esm && npm run build:cjs", "build:esm": "tsc", "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
 
 # tsc --init
 
