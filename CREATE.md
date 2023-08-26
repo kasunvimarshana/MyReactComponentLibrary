@@ -18,3 +18,4 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
 },
+# tsc --init
