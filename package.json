@@ -1,0 +1,19 @@
+{
+  "name": "my-react-component-library",
+  "version": "1.0.0",
+  "description": "\"My React Component Library\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasunvimarshana/MyReactComponentLibrary.git"
+  },
+  "author": "kasunvmail@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasunvimarshana/MyReactComponentLibrary/issues"
+  },
+  "homepage": "https://github.com/kasunvimarshana/MyReactComponentLibrary#readme"
+}
