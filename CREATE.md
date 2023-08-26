@@ -19,3 +19,14 @@
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
 },
 # tsc --init
+# create [.prettierrc] file
+{
+    "singleQuote": true,
+    "printWidth": 200,
+    "proseWrap": "always",
+    "tabWidth": 4,
+    "useTabs": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "semi": true
+}
