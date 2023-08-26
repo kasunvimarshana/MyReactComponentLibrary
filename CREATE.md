@@ -39,3 +39,5 @@
 "src/**/*.tsx"] }
 
 # create a component [src/components]
+
+# to use npm install ../kv-react-component-library
